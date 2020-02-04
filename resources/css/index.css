@@ -1,22 +1,101 @@
-html {
-  background-color: black;
-}
+/* text */
 
-* {
-  font-family: 'Courier New', Courier, monospace;
+html {
+  font-family: 'Roboto', 'Arial';
+  background: black;
   color: white;
-  margin: 0;
+  font-weight: 500;
+  text-align: center;
 }
 
 h1 {
-  font-size: 50px;
-  margin:0;
+  font-weight: 500;
+  font-size: 35px;
 }
 
+h2,
 .email {
-  font-size: 20px;
+  font-weight: 500;
+  font-size: 25px;
 }
 
-h2 {
-  margin: 0;
+h3,
+.project-header {
+  font-weight: 400;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+p,
+li,
+a,
+a:active {
+  font-weight: 300;
+  font-size: 15px;
+  color: white;
+}
+
+/* classes */
+
+.link-nav {display: inline;}
+
+.name-plate {
+  background: #b9b9b9;
+  border: 2px solid white;
+  padding: 10px;
+  margin: 10px auto;
+}
+
+.blue {
+  background: #00a9c3;
+  color: white;
+  display: inline-block;
+  width: 32%;
+  text-align: center;
+  margin: 20px auto;
+  min-height: 100px;
+}
+
+.dark-blue {
+  background: #000054;
+  color: white;
+  display: inline-block;
+  width: 32%;
+  text-align: center;
+  margin: 20px auto;
+  min-height: 100px;
+}
+
+.grey {
+  background: #b9b9b9;
+  color: white;
+  display: inline-block;
+  width: 32%;
+  text-align: center;
+  margin: 20px auto;
+  min-height: 100px;
+}
+
+.verdana {
+  font-family: 'Verdana';
+}
+
+.roboto {
+  font-family: 'Roboto';
+}
+
+.times {
+  font-family: 'Times';
+}
+
+.bold {
+  font-weight: 800;
+}
+
+.italic {
+  font-style: italic;
+}
+
+* {
+  font-weight: 300;
 }
